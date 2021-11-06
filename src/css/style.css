@@ -1,0 +1,442 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background: #344051;
+}
+
+.logo {
+    color: #fff;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+}
+
+.menu {
+    float: left;
+    padding-left: 432px;
+}
+
+.menu li {
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.main {
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/AndrewBraun/boy.png) 90% 100%/auto 85% no-repeat,url(../img/AndrewBraun/bg.jpg) center/cover no-repeat;
+}
+
+.title__container {
+    float: left;
+    margin: 432px 0px 0px 404px;
+    color: #2c384a;
+    text-align: center;
+}
+
+.title__container h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.title__container h4 {
+    margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;
+}
+
+.title__container input {
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin-top: 58px;
+    margin: 50px 28px 0 14px;
+    color: #6d7682;
+    font-weight: bold;
+}
+
+.aboutMe {
+    width: 750px;
+    margin: 0 auto;
+    padding-bottom: 97px;
+    text-align: center;
+}
+
+.title__text {
+    font-size: 33px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 41px;
+    color: #263244;
+    text-align: center;
+}
+
+.line {
+    width: 70px;
+    height: 5px;
+    margin: 30px auto 0;
+    background: #d17700;
+}
+.myPhoto {
+    margin: 31px 0 24px;
+}
+
+.aboutMe p {
+    text-align: left;
+    font-size: 16px;
+    color: #3f495a;
+    padding-bottom: 40px;
+}
+
+.aboutMe button {
+    padding: 8px;
+    border: 2px solid #6f707e;
+    border-radius: 5px;
+    background: none;
+    color: #6f707e;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.aboutMe img {
+    padding: 1px 8px 0px 0px;
+}
+
+.mySkills {
+    padding: 97px 0px 85px 0px;
+    background: url(../img/MySkills/bg-skills.jpg) center/cover no-repeat;
+}
+
+.cardSkills__container {
+    margin-left: calc(360px - 42px);
+}
+
+.cardSkills {
+    width: 240px;
+    display: inline-block;
+    margin: 95px 42px 0px 0px;
+    text-align: center;
+}
+
+
+.cardSkills h4 {
+    margin: 30px 0px 15px 0px;
+    font-size: 19px;
+    font-weight: bold;
+    color: #cf7600;
+}
+
+.cardSkills p {
+    font-size: 16px;
+    color: #3f495a;
+}
+
+.cases {
+    padding: 105px 0px 100px 0px;
+    text-align: center;
+}
+
+.cases__text {
+    margin: 36px 0px 40px 0px;
+    font-size: 16px;
+    color: #3f495a;
+}
+
+.project__container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.left {
+    float: left;
+    margin-right: 85px;
+}
+
+.left h4 {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    color: #384354;
+}
+.left p {
+    margin: 15px 0px;
+    text-align: left;
+}
+.left input {
+    padding: 15px 41px;
+    border-radius: 5px;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #63b5ae;
+    color: #fff;
+}
+.right {
+    width: 95%;
+}
+.right h3 {
+    margin-bottom: 15px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    color: #384354;
+}
+.right p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #3f495a;
+}
+
+.price {
+    padding: 100px 0px 155px 0;
+}
+
+.price__container {
+    width: 891px;
+    margin: 0 auto;
+}
+
+.checklist:first-child {
+    padding-top: 50px;
+}
+
+.checklist {
+    padding-bottom: 42px;
+}
+
+.checklist:last-child {
+    padding-bottom: 35px;
+}
+
+.checklist p {
+    padding-bottom: 22px;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    color: #1c2534;
+}
+
+.checklist select {
+    width: 100%;
+    padding: 23px 23px 23px 23px;
+    background: #eeeeee;
+    font-size: 16px;
+    font-weight: bold;
+    color: #737373;
+    appearance: none;
+    background-image: url(../img/Price/Checkmark.png);
+    background-repeat: no-repeat;
+    background-position: top 52% right 3%; 
+}
+
+.price__line {
+    width: 100%;
+    height: 2px;
+    background: #d1d1d1;
+}
+
+.counter {
+    margin-top: 23px;
+    padding-left: 5px;
+}
+
+.counter__left {
+    width: 49%;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1c2534;
+}
+.counter__right {
+    text-align: right;
+    padding: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1c2534;
+}
+
+.statistik {
+    padding: 43px 0px 100px 0px;
+    background: url(../img/Statistik/statistik-bg.jpg) center/cover no-repeat;
+}
+
+.statistik__container {
+    width: 1000px;
+    margin: 88px auto 85px;
+}
+
+.cardStatistik {
+    display: inline-block;
+    margin-left: 150px;
+    text-align: center;
+}
+
+.cardStatistik:first-child {
+    margin-left: 0px;
+}
+
+.cardStatistik img {
+    padding-left: 5px;
+}
+
+.number {
+    margin: 26px 0px 20px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.reviews {
+    text-align: center;
+}
+
+.reviews__container {
+    width: 733px;
+    margin: 57px auto 90px;
+}
+
+.reviews__container img {
+    margin-bottom: 35px;
+}
+
+.reviews__container p:first-child {
+    margin-bottom: 35px;
+}
+
+.reviews__container p {
+    margin-bottom: 50px;
+}
+
+.point {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-left: 12px;
+    border-radius: 5px;
+    background: #cfd2d7;
+}
+
+.orange__point {
+    margin-left: 0px;
+    background: #c96500;
+}
+
+.contacts {
+    padding: 105px 0px 68px;
+    background: url(../img/Contacts/contacts-bg.jpg) center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+}
+
+.text__white {
+    color: #fff;
+}
+
+.contacts__container {
+    width: 733px;
+    margin: 0 auto 36px;
+    clear: both;
+}
+
+.contacts__container p:first-child {
+    margin: 30px 0px 45px;
+    font-size: 16px;
+}
+
+.cardContacts {
+    float: left;
+    margin-left: 132px;
+}
+
+.cardContacts:nth-child(2) {
+    margin-left: 0px;
+}
+
+.cardContacts p {
+    padding-top: 12px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.contacts__form {
+   clear: both;
+}
+
+.textForms {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contacts__input {
+    width: 349px;
+    height: 34px;
+    padding: 12px;
+    background: rgba(214, 218, 224, 0.8);
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #656566;
+}
+
+.contacts__input:nth-child(2) {
+    margin-left: 30px;
+}
+
+.contacts__form textarea {
+    width: 100%;
+    height: 93px;
+    padding: 12px;
+    margin-bottom: 25px;
+    background: rgba(214, 218, 224, 0.8);
+    font-size: 16px;
+    color: #656566;
+}
+
+.contacts__input-send {
+    margin-bottom: 72px;
+    padding: 15px 18px;
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size: 21px;
+    color: #fff;
+}
+
+.socialIcons a {
+    margin-left: 52px;
+}
+
+.socialIcons a:first-child {
+    margin-left: 0;
+}
+
+footer {
+    padding:38px 0px;
+    text-align: center;
+    background: #354051;
+    color: #fff;
+    font-size: 13px;
+}

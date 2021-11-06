@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Андрей Браун - Веб-разработчик</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">Андрей Браун</div>
-            <div>
+            <div class="menu">
                 <ul>
                     <li>Обо мне</li>
                     <li>Услуги</li>
@@ -24,156 +26,174 @@
         </nav>
     </header>
     <div class="main">
+      <div class="title__container">
         <h1>Привет <br> Я Андрей Браун</h1>
         <h4>Фулл стек веб-разработчик</h4>
         <input type="submit" value="Обо мне">
         <input type="submit" value="Мои работы">
+      </div>
     </div>
     <div class="aboutMe">
-        <h2> Обо мне</h2>
+        <h2 class="title__text"> Обо мне</h2>
         <hr class="line">
         <img src="./img/AboutMe/photo.png" alt="Моя фотография" class="myPhoto">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam impedit dicta unde, saepe eaque quasi nobis nostrum omnis sint expedita nulla id! Animi natus perspiciatis esse eius aliquid sed possimus?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam impedit dicta unde, saepe eaque quasi nobis nostrum omnis sint expedita nulla id!
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis suscipit totam fugit sit quos aliquid, eveniet dolore possimus voluptatibus dignissimos! Eaque consequatur delectus ut maxime assumenda, itaque similique hic mollitia?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis suscipit totam fugit sit quos aliquid, eveniet dolore possimus voluptatibus dignissimos!
         </p>
         <button><img src="./img/AboutMe/download.png" alt="Иконка загрузки">Скачать резюме</button>
     </div>
     <div class="mySkills">
-        <h2>Что я умею</h2>
+        <h2 class="title__text">Что я умею</h2>
         <hr class="line">
-        <div class="cardSkiils">
-          <img src="./img/MySkills/notebook.png" alt="Веб-дизайн" class="icon">
-          <h4>Веб-дизайн</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, tempore doloremque illo corporis magni reprehenderit repellat voluptatum id, aliquam eos ullam rerum natus nulla explicabo assumenda voluptatibus dolores veritatis itaque.</p>
-        </div>
-        <div class="cardSkiils">
-          <img src="./img/MySkills/symbol.png" alt="Разработка" class="icon">
-          <h4>Разработка</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, tempore doloremque illo corporis magni reprehenderit repellat voluptatum id, aliquam eos ullam rerum natus nulla explicabo assumenda voluptatibus dolores veritatis itaque.</p>
-        </div>
-        <div class="cardSkiils">
-          <img src="./img/MySkills/rocket.png" alt="СЕО-оптимизация" class="icon">
-          <h4>СЕО-Оптимизация</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, tempore doloremque illo corporis magni reprehenderit repellat voluptatum id, aliquam eos ullam rerum natus nulla explicabo assumenda voluptatibus dolores veritatis itaque.</p>
-        </div>
-        <div class="cardSkiils">
-          <img src="./img/MySkills/gramophone.png" alt="Маркетинг" class="icon">
-          <h4>Маркетинг</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, tempore doloremque illo corporis magni reprehenderit repellat voluptatum id, aliquam eos ullam rerum natus nulla explicabo assumenda voluptatibus dolores veritatis itaque.</p>
+        <div class="cardSkills__container">
+          <div class="cardSkills">
+            <img src="./img/MySkills/notebook.png" alt="Веб-дизайн" class="icon">
+            <h4>Веб-дизайн</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, tempore</p>
+          </div>
+          <div class="cardSkills">
+            <img src="./img/MySkills/symbol.png" alt="Разработка" class="icon">
+            <h4>Разработка</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, tempore</p>
+          </div>
+          <div class="cardSkills">
+            <img src="./img/MySkills/rocket.png" alt="СЕО-оптимизация" class="icon">
+            <h4>СЕО-Оптимизация</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, tempore</p>
+          </div>
+          <div class="cardSkills">
+            <img src="./img/MySkills/gramophone.png" alt="Маркетинг" class="icon">
+            <h4>Маркетинг</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, tempore</p>
+          </div>
         </div>
     </div>
     <div class="cases">
-        <h2>Кейсы</h2>
+        <h2 class="title__text">Кейсы</h2>
         <hr class="line">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus praesentium, tempora amet voluptatum</p>
+        <p class="cases__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus praesentium, tempora amet voluptatum</p>
         <img src="./img/Cases/openCloud.jpg" alt="Кейс OpenCloud" class="myCase">
-        <div class="left">
-          <h4>client:</h4>
-          <p>Какая-то компания</p>
-          <h4>website:</h4>
-          <p>http://www.somedomain.com</p>
-          <input type="button" value="visit live site">
-        </div>
-        <div class="right">
-          <h3>Название проекта</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus perferendis quis esse! Eius, facere odit recusandae consequuntur molestias praesentium iusto, alias, expedita non dolore adipisci veniam libero voluptatibus quam doloremque.</p>
+        <div class="project__container">
+          <div class="left">
+            <h4>client:</h4>
+            <p>Какая-то компания</p>
+            <h4>website:</h4>
+            <p>http://www.somedomain.com</p>
+            <input type="button" value="visit live site">
+          </div>
+          <div class="right">
+            <h3>Название проекта</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus perferendis quis esse! Eius, facere odit recusandae consequuntur molestias praesentium iusto, alias, expedita non dolore adipisci veniam libero voluptatibus quam doloremque Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          </div>
         </div>
     </div>
     <div class="price">
-        <h2>Расчет стоимости:</h2>
-        <div class="checklist">
-          <p>Тип сайта:</p>
-          <select name="typeSite" id="">
-            <option>Выберите пункт:</option>
-          </select>
+        <h2 class="title__text">Расчет стоимости:</h2>
+        <div class="price__container">
+          <div class="checklist">
+            <p>Тип сайта:</p>
+            <select name="typeSite" id="">
+              <option>Выберите пункт...</option>
+            </select>
+          </div>
+              <div class="checklist">
+            <p>Дизайн:</p>
+            <select name="typeSite" id="">
+              <option>Выберите пункт...</option>
+            </select>
+          </div>
+              <div class="checklist">
+            <p>Адаптивность:</p>
+            <select name="typeSite" id="">
+              <option>Выберите пункт...</option>
+            </select>
+          </div>
+        <hr class="price__line">
+        <div class="counter">
+          <div class="counter__left"><p>Сроки</p></div>
+          <div  class="counter__right"><p>0</p></div>
         </div>
-            <div class="checklist">
-          <p>Дизайн:</p>
-          <select name="typeSite" id="">
-            <option>Выберите пункт:</option>
-          </select>
+        <div class="counter">
+          <div class="counter__left"><p>Стоимость</p></div>
+          <div  class="counter__right"><p>0</p></div>
         </div>
-            <div class="checklist">
-          <p>Адаптивность:</p>
-          <select name="typeSite" id="">
-            <option>Выберите пункт:</option>
-          </select>
         </div>
-      <hr>
-      <div class="counter">
-        <p>Сроки</p>
-        <p>0</p>
-      </div>
-      <div class="counter">
-        <p>Стоимость</p>
-        <p>0</p>
-      </div>
     </div>
     <div class="statistik">
-        <h2>Немного статистики</h2>
+        <h2 class="title__text">Немного статистики</h2>
         <hr class="line">
-        <div class="cardStatistik">
-          <img src="./img/Statistik/smile.png" alt="Иконка счастливого смайла">
-          <p class="number">120</p>
-          <p class="text">счастливых клиентов</p>
-        </div>
-        <div class="cardStatistik">
-          <img src="./img/Statistik/symbolOrange.png" alt="иконка разработки">
-          <p class="number">4,600</p>
-          <p class="text">часов работы</p>
-        </div>
-        <div class="cardStatistik">
-          <img src="./img/Statistik/checkMark.png" alt="иконка с галочкой">
-          <p class="number">340</p>
-          <p class="text">проектов завершено</p>
-        </div>
-        <div class="cardStatistik">
-          <img src="./img/Statistik/cup.png" alt="иконка кубка">
-          <p class="number">23</p>
-          <p class="text">наград получено</p>
+        <div class="statistik__container">
+          <div class="cardStatistik">
+            <img src="./img/Statistik/smile.png" alt="Иконка счастливого смайла">
+            <p class="number">120</p>
+            <p class="text">счастливых клиентов</p>
+          </div>
+          <div class="cardStatistik">
+            <img src="./img/Statistik/symbolOrange.png" alt="иконка разработки">
+            <p class="number">4,600</p>
+            <p class="text">часов работы</p>
+          </div>
+          <div class="cardStatistik">
+            <img src="./img/Statistik/checkMark.png" alt="иконка с галочкой">
+            <p class="number">340</p>
+            <p class="text">проектов завершено</p>
+          </div>
+          <div class="cardStatistik">
+            <img src="./img/Statistik/cup.png" alt="иконка кубка">
+            <p class="number">23</p>
+            <p class="text">наград получено</p>
+          </div>
         </div>
     </div>
     <div class="reviews">
-      <h2>Отзывы</h2>
+      <h2 class="title__text">Отзывы</h2>
       <hr class="line">
-      <img src="./img/Reviews/photo-client.png" alt="Фотография клиента">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe a atque aperiam quis labore, ab sequi, reiciendis illo culpa rem excepturi cupiditate beatae. Eos culpa unde omnis suscipit magnam at?</p>
-      <p>Михаил, Ген.директор ПАО"Газпром"</p>
-      <div class="point"></div>
-      <div class="point"></div>
-      <div class="point"></div>
+      <div class="reviews__container">
+        <img src="./img/Reviews/photo-client.png" alt="Фотография клиента">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe a atque aperiam quis labore, ab sequi, reiciendis illo culpa rem excepturi cupiditate beatae. Eos culpa unde omnis suscipit magnam at?</p>
+        <p><strong>Михаил</strong>, Ген.директор ПАО"Газпром"</p>
+        <div class="point orange__point"></div>
+        <div class="point"></div>
+        <div class="point"></div>
+      </div>
     </div>
     <div class="contacts">
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas corrupti</p>
-      <div class="cardContancts">
-        <img src="./img/Contacts/geolocations.png" alt="Иконка геолокация">
-        <p>Санкт-Петербург<br>Невский проспект 11</p>
-      </div>
-      <div class="cardContancts">
-        <img src="./img/Contacts/email.png" alt="Иконка почта">
-        <p>info@companyname.com</p>
-      </div>
-      <div class="cardContancts">
-        <img src="./img/Contacts/phone.png" alt="Иконка трубки">
-        <p>+7 999 999 99 99</p>
-      </div>
-      <p class="textForms">Оставьте мне сообщение</p>
-      <form action="">
-        <input type="text" placeholder="Имя">
-        <input type="text" placeholder="Email">
-        <textarea name="" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
-        <input type="submit" value="Отправить">
-      </form>
-      <div class="socialIcons">
-        <a href="#"><img src="./img/Contacts/socialIcons/facebook.png" alt="Иконка Facebook"></a>
-        <a href="#"><img src="./img/Contacts/socialIcons/twitter.png" alt="Иконка twitter"></a>
-        <a href="#"><img src="./img/Contacts/socialIcons/dribbble.png" alt="Иконка dribbble"></a>
-        <a href="#"><img src="./img/Contacts/socialIcons/github.png" alt="Иконка github"></a>
-        <a href="#"><img src="./img/Contacts/socialIcons/instagram.png" alt="Иконка instagram"></a>
-        <a href="#"><img src="./img/Contacts/socialIcons/in.png" alt="Иконка in"></a>
+      <h2 class="title__text text__white">Контакты</h2>
+      <hr class="line">
+      <div class="contacts__container">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leo nec omare diamcoccodo</p>
+        <div class="cardContacts">
+          <img src="./img/Contacts/geolocations.png" alt="Иконка геолокация">
+          <p>Санкт-Петербург<br>Невский проспект 11</p>
+        </div>
+        <div class="cardContacts">
+          <img src="./img/Contacts/email.png" alt="Иконка почта">
+          <p>info@companyname.com</p>
+        </div>
+        <div class="cardContacts">
+          <img src="./img/Contacts/phone.png" alt="Иконка трубки">
+          <p>+7 999 999 99 99</p>
+        </div>
+        <div class="contacts__form">
+          <p class="textForms">Оставьте мне сообщение</p>
+          <form action="">
+            <input class="contacts__input" type="text" placeholder="Имя">
+            <input class="contacts__input" type="text" placeholder="Email">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
+            <input class="contacts__input-send" type="submit" value="Отправить">
+          </form>
+        </div>
+        <div class="socialIcons">
+          <a href="#"><img src="./img/Contacts/socialIcons/facebook.png" alt="Иконка Facebook"></a>
+          <a href="#"><img src="./img/Contacts/socialIcons/twitter.png" alt="Иконка twitter"></a>
+          <a href="#"><img src="./img/Contacts/socialIcons/dribbble.png" alt="Иконка dribbble"></a>
+          <a href="#"><img src="./img/Contacts/socialIcons/github.png" alt="Иконка github"></a>
+          <a href="#"><img src="./img/Contacts/socialIcons/instagram.png" alt="Иконка instagram"></a>
+          <a href="#"><img src="./img/Contacts/socialIcons/in.png" alt="Иконка in"></a>
+        </div>
       </div>
     </div>
     <div class="map">
